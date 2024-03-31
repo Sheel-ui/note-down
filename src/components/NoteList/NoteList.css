@@ -1,0 +1,22 @@
+.note-preview {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid var(--note-border);
+    text-align: justify;
+}
+.note-preview:hover {
+    box-shadow: 1px 3px 5px  var(--note-hover);
+}
+.note-preview h2 {
+    font-size: 20px;
+    color: var(--theme-primary);
+    margin-bottom: 8px;
+}
+.note-preview a{
+    text-decoration: none;
+}
+
+.note-preview u {
+    color: var(--see-more);
+  
+  }

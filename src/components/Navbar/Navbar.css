@@ -1,0 +1,35 @@
+.navbar {
+    padding: 20px;
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--nav-bottom-border);
+  }
+  .navbar h1 {
+    color: var(--theme-primary);
+  }
+  .navbar .links {
+    margin-left: auto;
+  }
+  .navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+  }
+  .navbar a:hover {
+    color: var(--theme-primary);
+  }
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.new-note-button {
+    color: white;
+    background-color: var(--theme-primary);
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-left: 10px;
+    text-decoration: none; 
+}

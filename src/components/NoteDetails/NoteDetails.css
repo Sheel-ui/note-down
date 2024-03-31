@@ -1,0 +1,18 @@
+.note-details h2 {
+    font-size: 20px;
+    color: var(--theme-primary);
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  .note-details div {
+    margin: 20px 0;
+    text-align: justify;
+  }
+  .note-details button {
+    background: var(--theme-primary);
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
